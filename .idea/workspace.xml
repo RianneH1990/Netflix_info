@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a328308-eaae-495c-8d27-6006e2d70df0" name="Default Changelist" comment="" />
+    <list default="true" id="2a328308-eaae-495c-8d27-6006e2d70df0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/page/Authentication/LogOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Authentication/LogOut.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Authentication/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Authentication/Login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Authentication/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Authentication/Register.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/home/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../6. React" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -50,11 +79,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625478574502</updated>
-      <workItem from="1625478575627" duration="375000" />
+      <workItem from="1625478575627" duration="8066000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
