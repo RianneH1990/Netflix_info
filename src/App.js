@@ -1,4 +1,4 @@
-import logo from './image/Logo.png';
+import logo from './image/logo-lighter.png';
 import header from './image/Checkflix1_small.png'
 import './App.css';
 import {
@@ -14,6 +14,8 @@ import GoneSoon from './page/goneSoon/GoneSoon';
 import Login from './page/Authentication/Login';
 import LogOut from './page/Authentication/LogOut';
 import Register from './page/Authentication/Register';
+import Result from './component/Result';
+import CountryResult from "./component/CountryResult";
 
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
     <div className="App">
       <nav>
         <ul className="navLinks">
-          <li className="Logo"><img src={logo} alt="logo"/></li>
+          <li className="Logo"><Link exact to='/'><img src={logo} alt="logo"/></Link></li>
           <li><Link exact to="/">Home</Link></li>
             { login &&
           <li><Link to="/FindMovie">Find movie/serie</Link></li> }
@@ -74,6 +76,14 @@ function App() {
                 <Register
                     login={login}
                     setLogin={setLogin}
+                />
+            </Route>
+            <Route path="/Result/:title">
+                <Result
+                />
+            </Route>
+            <Route path="/CountryResult/:id">
+                <CountryResult
                 />
             </Route>
         </Switch>

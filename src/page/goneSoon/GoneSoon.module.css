@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .header {
-    color: white;
+    color: hsl(0, 31%, 94%);
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 50px;
+}
+
+.title {
+    padding-top: 20px;
+    color: hsl(0, 31%, 94%);
+}
+
+.title :visited {
+    color: hsl(0, 100%, 73%);
+}
+
+.date {
+    font-size: 14px;
+    color: hsl(0, 100%, 73%);
+}
+
+.page-title {
+    align-self: center;
+    padding-bottom: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: hsl(0, 100%, 50%);
 }

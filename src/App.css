@@ -6,20 +6,21 @@
 }
 
 :root {
-  background-color: black;
+  background-color: hsl(0, 4%, 5%);
 }
 
 /*Header CSS*/
 .App-header {
-  background-color:black;
+  background-color: hsl(0, 0%, 0%);
   height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-  border-bottom: 1px solid gray;
+  color: hsl(0, 0%, 100%);
+  border-bottom: 1px solid hsl(0, 100%, 94%);
+  border-top: 1px solid hsl(0, 100%, 94%);
 }
 
 /*Nav CSS*/
@@ -43,8 +44,8 @@ nav {
   align-items: flex-start;
   font-family: 'Bebas Neue', cursive;
   font-size: 27px;
-  color: red;
-  background-color: black;
+  color: hsl(0, 100%, 50%);
+  background-color: hsl(0, 4%, 5%);
 }
 
 .Logo img {
@@ -63,5 +64,5 @@ nav {
 }
 
 .navLinks :visited {
-  color: indianred;
+  color: hsl(0, 100%, 73%);
 }
