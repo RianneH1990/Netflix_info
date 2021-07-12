@@ -13,11 +13,14 @@
     justify-content: center;
     align-items: center;
     background-color: grey;
-    width: 600px;
-    height: 700px;
+    width: 650px;
+    height: 850px;
     padding: 20px;
     margin: 20px;
+}
 
+p .available {
+    width: 150px;
 }
 
 .pageTitle {

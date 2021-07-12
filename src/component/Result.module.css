@@ -1,3 +1,18 @@
 .netflixContainer {
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultCard {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 50%;
+    background-color: hsl(0, 0%, 27%);
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
 }

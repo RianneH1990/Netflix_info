@@ -33,15 +33,16 @@ function Result() {
 
     return (
         <div className={styles["netflixContainer"]}>
-            <h1>Result</h1>
-        <div>
+        <div className={styles["resultCard"]}>
                 { movies && (movies.filter(movies => movies.title === title).map((movie, index) => (
                     <div key={index}>
                         <h1>{movie.title}</h1>
-                        <img src={movie.poster} alt={movie.title}/>
-                        <h3>{movie.imdbrating}</h3>
-                        <p>{movie.vtype}</p>
-                        <p>{movie.synopsis}</p>
+                        <img src={movie.poster} alt="no poster available"/>
+                        <p>IMDB rating:{movie.imdbrating}</p>
+                        <p>Type:{movie.vtype}</p>
+                        <br />
+                        <h3>{movie.synopsis}</h3>
+                        <p>Available in: {movie.clist}</p>
                     </div>)))}
                 </div>
         </div>

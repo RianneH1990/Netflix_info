@@ -19,6 +19,7 @@ function CountryResult() {
         async function fetchInfo() {
             const result = await axios.get(`https://unogsng.p.rapidapi.com/search`, {
                 params: {
+                    orderby: 'rating',
                     countrylist: id,
                     limit: '10',
                     offset: offset
@@ -63,6 +64,7 @@ function CountryResult() {
                         <p>IMDB rating: {movie.imdbrating}</p>
                         <p>Type: {movie.vtype}</p>
                         <h3>Synopsis: {movie.synopsis}</h3>
+                        <p className={styles["available"]}>Available in: {movie.clist}</p>
                     </div>))}
             </div>
             <div className={styles["buttons"]}>

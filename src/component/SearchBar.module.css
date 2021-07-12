@@ -2,15 +2,41 @@
     display:flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
 }
 
 .searchBarInput {
     background-color: hsl(0, 31%, 94%);
     height: 30px;
     width: 500px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
     border-radius: 5px;
+}
+
+.searchLabel {
+    font-size: 28px;
+}
+
+.suggestionContainer {
+    background-color: hsl(0, 0%, 85%);
+    width: 500px;
+}
+
+.suggestions{
+    color: hsl(0, 100%, 0%);
+    cursor:pointer;
+    border-right: 1px solid hsl(0, 100%, 0%);
+    border-left: 1px solid hsl(0, 100%, 0%);
+    border-bottom: 1px solid hsl(0, 100%, 0%);
+}
+
+.suggestions:hover {
+    background-color: hsl(0, 0%, 65%);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .searchBar:focus {
@@ -21,17 +47,5 @@
     height: 30px;
     width: 200px;
     font-size: 18px;
-    margin-left: 10px;
-}
-
-.searchLabel {
-    font-size: 28px;
-}
-
-.searchIcon {
-    color: #bebebe;
-    font-size: 27px;
-    margin-right: 10px;
-    margin-top: 6px;
-    vertical-align: middle;
+    margin: 12px 0px 50px 10px;
 }

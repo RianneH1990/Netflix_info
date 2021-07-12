@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a328308-eaae-495c-8d27-6006e2d70df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/CountryResult.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/SearchBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/SearchBar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/CountryResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CountryResult.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/CountryResult.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CountryResult.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Result.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Result.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/SearchBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SearchBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/findmovie/FindMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/findmovie/FindMovie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <workItem from="1625841708739" duration="28000" />
       <workItem from="1625987673310" duration="3439000" />
       <workItem from="1626073521842" duration="4498000" />
-      <workItem from="1626079668266" duration="12064000" />
+      <workItem from="1626079668266" duration="20509000" />
     </task>
     <servers />
   </component>

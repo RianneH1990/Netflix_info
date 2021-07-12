@@ -38,11 +38,13 @@ function FindMovie(props) {
 
     return (
         <div className={styles["findPage"]}>
+            <h3 className={styles["pageInfo"]}>On this page you can look for a movie or Tv-show. Typ in the title in the searchbar below. Or if you want to see all the content that is available in a country just click on the country on the bottom of this page.</h3>
+            <label>Find a Movie or Tv-show</label>
             <Searchbar />
-            <div className={styles["searchForm"]}>
-                <label className={styles["countryLabel"]} htmlFor="country">Choose a country to check the available content</label>
+            <label className={styles["countryLabel"]} htmlFor="country">Choose a country to check the available content</label>
+            <div className={styles["form"]}>
                     {countries && countries.map((country) => {
-                        return <div><Link to={`/CountryResult/${country.id}`}>{country.country}</Link></div>
+                        return <div><Link to={`/CountryResult/${country.id}`}><p className={styles["countryNames"]}>{country.country}</p></Link></div>
                     })}
                             </div>
         </div>
