@@ -15,28 +15,6 @@
     margin: 10px;
 }
 
-.searchBar {
-    background-color: hsl(0, 31%, 94%);
-    height: 30px;
-    width: 500px;
-    margin: 10px 0px 10px 0px;
-    border-radius: 5px;
-}
-
-.searchBar:focus {
-    background-color: hsl(0, 31%, 94%);
-}
-
-.searchButton {
-    height: 30px;
-    width: 200px;
-    font-size: 18px;
-}
-
-.searchLabel {
-    font-size: 28px;
-}
-
 .searchForm {
     display: flex;
     justify-content: center;

@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a328308-eaae-495c-8d27-6006e2d70df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/CountryResult.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Result.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/logo-lighter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/poster1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/poster2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/poster3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/poster4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/poster5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/CountryResult.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/SearchBar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/Login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/Login.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/Register.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/Register.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/CountryResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CountryResult.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Result.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/findmovie/FindMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/findmovie/FindMovie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/Home.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -99,7 +89,9 @@
       <workItem from="1625828881277" duration="3261000" />
       <workItem from="1625840158428" duration="1098000" />
       <workItem from="1625841708739" duration="28000" />
-      <workItem from="1625987673310" duration="3233000" />
+      <workItem from="1625987673310" duration="3439000" />
+      <workItem from="1626073521842" duration="4498000" />
+      <workItem from="1626079668266" duration="12064000" />
     </task>
     <servers />
   </component>

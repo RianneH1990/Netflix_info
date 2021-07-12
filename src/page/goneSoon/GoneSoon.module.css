@@ -23,8 +23,16 @@
 
 .page-title {
     align-self: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
+    color: hsl(0, 100%, 50%);
+}
+
+.page-sub-title {
+    align-self: center;
+    padding-bottom: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
     color: hsl(0, 100%, 50%);
 }

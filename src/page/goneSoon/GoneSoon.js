@@ -28,7 +28,8 @@ function GoneSoon(props) {
     return (
         <div>
             <div className={styles["header"]}>
-                <h1 className={styles['page-title']}>Titles that will be gone soon:</h1>
+                <h1 className={styles['page-title']}>Titles that will be gone soon</h1>
+                <h3 className={styles['page-sub-title']}>from the Netherlands</h3>
                  {movies && movies.map((movie) => {
                     return <div><Link to={`/Result/${movie.title}`}><h2 className={styles['title']}>{movie.title}</h2></Link><p className={styles["date"]}>Expire date: {movie.expiredate}</p></div>
             })}

@@ -1,0 +1,37 @@
+.searchBar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchBarInput {
+    background-color: hsl(0, 31%, 94%);
+    height: 30px;
+    width: 500px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+.searchBar:focus {
+    background-color: hsl(0, 31%, 94%);
+}
+
+.searchButton {
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.searchLabel {
+    font-size: 28px;
+}
+
+.searchIcon {
+    color: #bebebe;
+    font-size: 27px;
+    margin-right: 10px;
+    margin-top: 6px;
+    vertical-align: middle;
+}
