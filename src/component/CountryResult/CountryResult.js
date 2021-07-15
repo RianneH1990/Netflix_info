@@ -59,11 +59,11 @@ function CountryResult() {
             <div className={styles["resultContainer"]}>
                 { movies && movies.map((movie, index) => (
                     <div className={styles["movieContainer"]} key={index}>
-                        <h1>{movie.title}</h1>
-                        <img src={movie.poster} alt="No poster available"/>
-                        <p>IMDB rating: {movie.imdbrating}</p>
-                        <p>Type: {movie.vtype}</p>
-                        <h3>Synopsis: {movie.synopsis}</h3>
+                        <h1 className={styles["title"]}>{movie.title}</h1>
+                        <p className={styles["type"]}>Type: {movie.vtype}</p>
+                        <img className={styles["image"]} src={movie.poster} alt="No poster available"/>
+                        <p className={styles["rating"]}>IMDB rating: {movie.imdbrating}</p>
+                        <h3 className={styles["synopsis"]}>Synopsis: {movie.synopsis}</h3>
                         <p className={styles["available"]}>Available in: {movie.clist}</p>
                     </div>))}
             </div>

@@ -5,7 +5,10 @@
     justify-content: center;
     background-color: hsl(0, 4%, 5%);
     padding: 10px;
+}
 
+.formLabels {
+    color: hsl(0, 100%, 73%);
 }
 
 .containerForm {
@@ -18,6 +21,10 @@
     border: 2px solid hsl(0, 100%, 73%);
     color: hsl(0, 100%, 73%);
     padding: 20px 0px 20px 0px;
+}
+
+.valError {
+    color: red;
 }
 
 .formLabel {
@@ -42,9 +49,9 @@
 }
 
 .redirect {
-    color: white;
+    color: hsl(0, 31%, 94%);
 }
 
 .redirect:visited {
-    color: white;
+    color: hsl(0, 31%, 94%);
 }

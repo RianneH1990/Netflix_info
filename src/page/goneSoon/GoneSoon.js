@@ -1,11 +1,13 @@
 import React, {useEffect} from 'react';
-import styles from './GoneSoon.module.css';
+import styles from './GoneComingSoon.module.css';
 import axios from "axios";
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
+import {useAuth} from "../../contexts/AuthContext";
 
-function GoneSoon(props) {
+function GoneSoon() {
     const [movies, setMovies] = useState(null);
+    const { authenticated } = useAuth();
 
     useEffect(() => {
         async function goneSoon() {
@@ -24,14 +26,18 @@ function GoneSoon(props) {
     }, [setMovies]);
     console.log("dit is movie", movies)
 
+    if (!authenticated) {
+        return <Redirect to='/Login' />
+    }
 
     return (
         <div>
             <div className={styles["header"]}>
                 <h1 className={styles['page-title']}>Titles that will be gone soon</h1>
                 <h3 className={styles['page-sub-title']}>from the Netherlands</h3>
+                <p>Click on the title for more information</p>
                  {movies && movies.map((movie) => {
-                    return <div><Link to={`/Result/${movie.title}`}><h2 className={styles['title']}>{movie.title}</h2></Link><p className={styles["date"]}>Expire date: {movie.expiredate}</p></div>
+                    return <div className={styles["card"]}><Link to={`/Result/${movie.title}`}><h2 className={styles['title']}>{movie.title}</h2></Link><p className={styles["date"]}>Expire date: {movie.expiredate}</p></div>
             })}
             </div>
         </div>

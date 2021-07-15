@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .registerForm {
     display: flex;
     flex-direction: column;
@@ -5,7 +7,7 @@
     justify-content: center;
     background-color: hsl(0, 4%, 5%);
     padding: 10px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .registerContainer {
@@ -16,7 +18,6 @@
     margin: 50px 300px 50px 300px;
     background-color: hsl(0, 4%, 5%);
     border: 2px solid hsl(0, 100%, 73%);
-    color: hsl(0, 100%, 73%);
     padding: 20px 0px 20px 0px;
 }
 
@@ -43,9 +44,20 @@
 }
 
 .redirect {
-    color: white;
+    color: hsl(0, 31%, 94%);
 }
 
 .redirect:visited {
-    color: white;
+    color: hsl(0, 31%, 94%);
 }
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.valError {
+    color: red;
+    font-size: 12px;
+}
+
+

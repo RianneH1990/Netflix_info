@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 .resultContainer {
     display: flex;
@@ -6,13 +6,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .movieContainer {
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: hsl(0, 4%, 5%);
+    border: 2px solid hsl(0, 100%, 73%);
+    box-shadow: 10px 5px 5px #000;
     width: 650px;
     height: 850px;
     padding: 20px;
@@ -47,7 +50,7 @@ button {
     width: 150px;
     height: 30px;
     border-color: hsl(0, 100%, 50%);
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 31%, 94%);
     font-size: 18px;
 }
 
@@ -64,3 +67,35 @@ button:disabled {
 button:disabled:hover {
     cursor: not-allowed;
 }
+
+.title {
+    padding-bottom: -50px;
+}
+
+.type {
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: hsl(0, 31%, 94%);
+}
+
+.image {
+    height: 40%;
+    width: auto;
+
+}
+
+.rating {
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: hsl(0, 31%, 94%);
+}
+
+.synopsis {
+    font-size: 25px;
+    color: hsl(0, 31%, 94%);
+}
+
+.available {
+    color: hsl(0, 31%, 94%);
+}
+

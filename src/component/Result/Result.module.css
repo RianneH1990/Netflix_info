@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+.netflixContainer {
+    color: hsl(0, 31%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resultCard {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 50%;
+    background-color: hsl(0, 4%, 5%);
+    border: 2px solid hsl(0, 100%, 73%);
+    box-shadow: 10px 5px 5px #000;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+}
+
+.type{
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+}

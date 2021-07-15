@@ -12,7 +12,7 @@ function Result() {
         async function fetchInfo() {
             const response = await axios.get(`https://unogsng.p.rapidapi.com/search`, {
                 params: {
-                    query: {title}
+                    query: {title},
                 },
                 headers: {
                     'x-rapidapi-key': '5afddf5ee1msha5adb76cf4d0fd6p193af4jsn2e25819a03b4',
@@ -37,11 +37,11 @@ function Result() {
                 { movies && (movies.filter(movies => movies.title === title).map((movie, index) => (
                     <div key={index}>
                         <h1>{movie.title}</h1>
+                        <p className={styles['type']}>Type: {movie.vtype}</p>
                         <img src={movie.poster} alt="no poster available"/>
-                        <p>IMDB rating:{movie.imdbrating}</p>
-                        <p>Type:{movie.vtype}</p>
+                        <p>IMDB rating: {movie.imdbrating}</p>
                         <br />
-                        <h3>{movie.synopsis}</h3>
+                        <h3>Synopsis: {movie.synopsis}</h3>
                         <p>Available in: {movie.clist}</p>
                     </div>)))}
                 </div>

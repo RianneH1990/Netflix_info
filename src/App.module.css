@@ -18,9 +18,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: hsl(0, 0%, 100%);
-  border-bottom: 1px solid hsl(0, 100%, 94%);
-  border-top: 1px solid hsl(0, 100%, 94%);
+  color: hsl(0, 31%, 94%);
+  border-bottom: 1px solid hsl(0, 31%, 94%);
+  border-top: 1px solid hsl(0, 31%, 94%);
 }
 
 /*Nav CSS*/
@@ -46,6 +46,7 @@ nav {
   font-size: 27px;
   color: hsl(0, 100%, 50%);
   background-color: hsl(0, 4%, 5%);
+
 }
 
 .Logo img {
@@ -63,6 +64,18 @@ nav {
   padding-bottom: 10px;
 }
 
+.logout {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 27px;
+  color: hsl(0, 100%, 50%);
+  background-color: hsl(0, 4%, 5%);
+  border: none;
+}
+
 .navLinks :visited {
+  color: hsl(0, 100%, 73%);
+}
+
+.logout :visited {
   color: hsl(0, 100%, 73%);
 }
