@@ -9,8 +9,14 @@ This project is a React project which is made for a school assignment. The proje
 [Page](./src/image/img.png)
 
 ## Dependencies
-* Node V. 14.16.0
-* Npm V. 6.14.11
+* Node V 14.16.0
+* Npm V 6.14.11
+* axios: V 0.21.1
+* firebase: V 8.7.1
+* react: V 17.0.2
+* react-dom: V 17.0.2
+* react-hook-form: V 7.10.1
+* react-router-dom: V 5.2.0
 * Tested on Windows 10.
 
 ## Installation
