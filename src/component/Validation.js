@@ -16,7 +16,7 @@ const Validation = (values) => {
             valErrors.password ="Password can't be longer than 15 characters"
     }
 
-        if (values.passwordConfirm != values.password) {
+        if (values.passwordConfirm !== values.password) {
             valErrors.passwordConfirm = "Passwords don't match"
         }
 

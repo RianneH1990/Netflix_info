@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a328308-eaae-495c-8d27-6006e2d70df0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Result/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Result/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Authentication/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +111,7 @@
       <workItem from="1626384949598" duration="388000" />
       <workItem from="1626422831734" duration="4761000" />
       <workItem from="1626430393923" duration="246000" />
-      <workItem from="1626443178443" duration="2163000" />
+      <workItem from="1626443178443" duration="2537000" />
     </task>
     <servers />
   </component>

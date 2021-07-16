@@ -45,7 +45,7 @@ function Login() {
                 <h1 className={styles["pageHeader"]}>Login</h1>
                 {error && <p>{error}</p>}
                 <form onSubmit={handleSubmit} className={styles["registerForm"]}>
-                    <label classname={styles["formLabels"]} htmlFor="email">Email:</label>
+                    <label className={styles["formLabels"]} htmlFor="email">Email:</label>
                     <input
                         type="email"
                         ref={emailRef}
@@ -57,7 +57,7 @@ function Login() {
                         onChange={handleChange}
                     />
                     {valErrors.email && <p className={styles["errorText"]}>{valErrors.email}</p>}
-                    <label classname={styles["formLabels"]} htmlFor="password">Password:</label>
+                    <label className={styles["formLabels"]} htmlFor="password">Password:</label>
                     <input
                         type="password"
                         ref={passwordRef}
