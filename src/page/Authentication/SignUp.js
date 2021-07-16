@@ -49,7 +49,7 @@ function SignUp() {
     return (
             <div className={styles["header"]}>
                 <fieldset className={styles["registerContainer"]}>
-                    <h1 className={styles["pageHeader"]}>Register</h1>
+                    <h1 className={styles["pageHeader"]}>Sign Up</h1>
                     <form onSubmit={handleSubmit} className={styles["registerForm"]}>
                         <label htmlFor="email">Email:</label>
                         <input

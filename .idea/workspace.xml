@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a328308-eaae-495c-8d27-6006e2d70df0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CountryResult/CountryResult.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Result/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Result/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Result/Result.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Result/Result.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SearchBar/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/AuthContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/Login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/Login.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/Authentication/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Authentication/SignUp.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Authentication/SignUp.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/comingSoon/ComingSoon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/findmovie/FindMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/findmovie/FindMovie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/findmovie/FindMovie.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/goneSoon/GoneComingSoon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneComingSoon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/goneSoon/GoneSoon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/Home.module.css" afterDir="false" />
     </list>
@@ -130,6 +118,8 @@
       <workItem from="1626384175131" duration="343000" />
       <workItem from="1626384949598" duration="388000" />
       <workItem from="1626422831734" duration="4761000" />
+      <workItem from="1626430393923" duration="246000" />
+      <workItem from="1626443178443" duration="2163000" />
     </task>
     <servers />
   </component>
@@ -156,7 +146,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/contexts/AuthContext.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

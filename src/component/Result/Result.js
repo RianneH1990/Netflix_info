@@ -1,11 +1,13 @@
 import React,{ useEffect, useState } from 'react';
 import axios from "axios";
 import styles from './Result.module.css';
-import { useParams } from "react-router-dom";
+import {Redirect, useParams} from "react-router-dom";
+import {useAuth} from "../../contexts/AuthContext";
 
 function Result() {
     const { title } = useParams();
     const [movies, setMovies] = useState(null);
+    const { authenticated } = useAuth();
 
     useEffect(() => {
         async function fetchInfo() {
@@ -23,6 +25,9 @@ function Result() {
         fetchInfo();
     }, []);
 
+    if (!authenticated) {
+        return <Redirect to='/Login' />
+    }
 
     return (
         <div className={styles["netflixContainer"]}>

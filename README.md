@@ -17,7 +17,7 @@ This project is a React project which is made for a school assignment. The proje
 * react-dom: V 17.0.2
 * react-hook-form: V 7.10.1
 * react-router-dom: V 5.2.0
-* Tested on Windows 10.
+* Tested on Windows 10: V 19042.1110
 
 ## Installation
 * Clone the repository

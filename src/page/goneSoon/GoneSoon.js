@@ -34,7 +34,7 @@ function GoneSoon() {
             <div className={styles["header"]}>
                 <h1 className={styles['page-title']}>Titles that will be gone soon</h1>
                 <h3 className={styles['page-sub-title']}>from the Netherlands</h3>
-                <p>Click on the title for more information</p>
+                <p className={styles["clickHere"]}>Click on the title for more information</p>
                  {movies && movies.map((movie) => {
                     return <div className={styles["card"]}><Link to={`/Result/${movie.title}`}><h2 className={styles['title']}>{movie.title}</h2></Link><p className={styles["date"]}>Expire date: {movie.expiredate}</p></div>
             })}

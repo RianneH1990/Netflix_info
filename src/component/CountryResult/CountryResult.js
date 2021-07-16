@@ -1,7 +1,8 @@
 import React,{ useEffect, useState } from 'react';
 import axios from "axios";
 import styles from './CountryResult.module.css';
-import { useParams } from "react-router-dom";
+import {Redirect, useParams} from "react-router-dom";
+import {useAuth} from "../../contexts/AuthContext";
 
 
 function CountryResult() {
@@ -9,6 +10,7 @@ function CountryResult() {
     const [countries, setCountries] = useState(null);
     const [offset, setOffset] = useState(0);
     const [refreshKey, setRefreshKey] = useState(0);
+    const { authenticated } = useAuth();
     const { id } = useParams();
 
     useEffect(() => {
@@ -44,6 +46,10 @@ function CountryResult() {
 
     function previousPage() {
         return setRefreshKey(oldkey => oldkey +1), setOffset(offset -10);
+    }
+
+    if (!authenticated) {
+        return <Redirect to='/Login' />
     }
 
     return (

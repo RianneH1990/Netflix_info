@@ -34,3 +34,11 @@ h3 {
     height: auto;
     padding: 50px 60px 50px 60px;
 }
+
+.loginLink {
+    color: hsl(0, 100%, 73%);
+}
+
+.loginLink :visited {
+    color: hsl(0, 100%, 73%);
+}
