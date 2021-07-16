@@ -35,11 +35,11 @@ function SignUp() {
             return setError('Passwords do not match');
         }
         try {
-            setAuthenticated(true)
             setError('')
             setLoading(true)
             await signup(emailRef.current.value, passwordRef.current.value)
             history.push('/')
+            setAuthenticated(true)
         } catch {
             setError('Sign up failed')
         }
@@ -49,8 +49,7 @@ function SignUp() {
     return (
             <div className={styles["header"]}>
                 <fieldset className={styles["registerContainer"]}>
-                    <h1>Register</h1>
-                    {error && <p>{error}</p>}
+                    <h1 className={styles["pageHeader"]}>Register</h1>
                     <form onSubmit={handleSubmit} className={styles["registerForm"]}>
                         <label htmlFor="email">Email:</label>
                         <input
@@ -63,7 +62,7 @@ function SignUp() {
                             value={values.email}
                             onChange={handleChange}
                         />
-                        {valErrors.email && <p classname={styles["valError"]}>{valErrors.email}</p>}
+                        {valErrors.email && <p className={styles["errorText"]}>{valErrors.email}</p>}
                         <label htmlFor="password">Password:</label>
                         <input
                             type="password"
@@ -75,7 +74,7 @@ function SignUp() {
                             value={values.password}
                             onChange={handleChange}
                         />
-                        {valErrors.password && <p classname={styles["valError"]}>{valErrors.password}</p>}
+                        {valErrors.password && <p className={styles["errorText"]}>{valErrors.password}</p>}
                         <label htmlFor="passwordConfirm">Confirm password:</label>
                         <input
                             type="password"
@@ -87,7 +86,7 @@ function SignUp() {
                             value={values.passwordConfirm}
                             onChange={handleChange}
                         />
-                        {valErrors.passwordConfirm && <p classname={styles["valError"]}>{valErrors.passwordConfirm}</p>}
+                        {valErrors.passwordConfirm && <p className={styles["errorText"]}>{valErrors.passwordConfirm}</p>}
                         <label htmlFor="country">country:</label>
                         <input
                             type="text"
@@ -99,7 +98,7 @@ function SignUp() {
                             value={values.country}
                             onChange={handleChange}
                            />
-                        {valErrors.country && <p classname={styles["valError"]}>{valErrors.country}</p>}
+                        {valErrors.country && <p className={styles["errorText"]}>{valErrors.country}</p>}
                         <button
                             disabled={loading}
                             type="submit"

@@ -5,8 +5,6 @@ import {Link, Redirect} from 'react-router-dom';
 import {useAuth} from "../../contexts/AuthContext";
 
 
-
-
 function ComingSoon(props) {
     const [movies, setMovies] = useState(null);
     const { authenticated } = useAuth();
@@ -24,25 +22,21 @@ function ComingSoon(props) {
                         'x-rapidapi-host': 'unogsng.p.rapidapi.com'
                     }
                 });
-                console.log(response.data.results);
                 setMovies(response.data.results);
             }
                 ComingSoon();
-            console.log("movie", movies)
         }, [setMovies]);
-            console.log("dit is movie", movies)
 
     if (!authenticated) {
         return <Redirect to='/Login' />
     }
-
 
             return (
             <div>
                 <div className={styles["header"]}>
                     <h1 className={styles['page-title']}>Titles that will be coming soon</h1>
                     <h3 className={styles['page-sub-title']}>from the Netherlands</h3>
-                    <p>Click on the title for more information</p>
+                    <p className={styles["clickHere"]}>Click on the title for more information</p>
                     {movies && movies.map((movie) => {
                         return <div className={styles["card"]}><Link to={`/Result/${movie.title}`}><h2 className={styles['title']}>{movie.title}</h2></Link><p className={styles["date"]}>Added on the: {movie.titledate}</p></div>
                     })}

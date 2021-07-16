@@ -23,9 +23,10 @@ h3 {
     font-size: 30px;
 }
 
-p {
+.homeText {
     padding-top: 40px;
     font-family: 'Roboto', sans-serif;
+    color: hsl(0, 31%, 94%);
 }
 
 .poster {

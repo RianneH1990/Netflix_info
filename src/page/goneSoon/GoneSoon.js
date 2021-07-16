@@ -5,6 +5,7 @@ import { useState } from 'react';
 import {Link, Redirect} from 'react-router-dom';
 import {useAuth} from "../../contexts/AuthContext";
 
+
 function GoneSoon() {
     const [movies, setMovies] = useState(null);
     const { authenticated } = useAuth();
@@ -18,13 +19,11 @@ function GoneSoon() {
                     'x-rapidapi-host': 'unogsng.p.rapidapi.com'
                 }
             });
-            console.log(response.data.results);
             setMovies(response.data.results);
         }
         goneSoon();
-        console.log("movie", movies)
     }, [setMovies]);
-    console.log("dit is movie", movies)
+
 
     if (!authenticated) {
         return <Redirect to='/Login' />

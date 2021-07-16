@@ -44,3 +44,7 @@ findMovieShow {
 .countryLabel {
     border-top: 2px solid hsl(0, 31%, 94%);
 }
+
+.countryList {
+    font-family: 'Roboto', sans-serif;
+}

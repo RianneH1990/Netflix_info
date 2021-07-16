@@ -7,7 +7,6 @@ function Result() {
     const { title } = useParams();
     const [movies, setMovies] = useState(null);
 
-
     useEffect(() => {
         async function fetchInfo() {
             const response = await axios.get(`https://unogsng.p.rapidapi.com/search`, {
@@ -19,16 +18,10 @@ function Result() {
                     'x-rapidapi-host': 'unogsng.p.rapidapi.com'
                 }
             });
-            console.log(response.data.results);
             setMovies(response.data.results);
-
-
         }
         fetchInfo();
     }, []);
-    console.log("dit is movie", movies)
-
-
 
 
     return (
@@ -37,12 +30,12 @@ function Result() {
                 { movies && (movies.filter(movies => movies.title === title).map((movie, index) => (
                     <div key={index}>
                         <h1>{movie.title}</h1>
-                        <p className={styles['type']}>Type: {movie.vtype}</p>
+                        <p className={styles['paragraph']}>Type: {movie.vtype}</p>
                         <img src={movie.poster} alt="no poster available"/>
-                        <p>IMDB rating: {movie.imdbrating}</p>
+                        <p className={styles['paragraph']}>IMDB rating: {movie.imdbrating}</p>
                         <br />
                         <h3>Synopsis: {movie.synopsis}</h3>
-                        <p>Available in: {movie.clist}</p>
+                        <p className={styles["countries"]}>Available in: {movie.clist}</p>
                     </div>)))}
                 </div>
         </div>

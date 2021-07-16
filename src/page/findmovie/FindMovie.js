@@ -6,11 +6,9 @@ import Searchbar from "../../component/SearchBar/SearchBar";
 import { useAuth } from "../../contexts/AuthContext";
 
 
-
 function FindMovie() {
     const [countries, setCountries] = useState('');
     const { authenticated } = useAuth();
-
 
     useEffect(() => {
         async function fetchMovie() {
@@ -20,11 +18,9 @@ function FindMovie() {
                     'x-rapidapi-host': 'unogsng.p.rapidapi.com'
                 }
             });
-            console.log(response.data.results);
             setCountries(response.data.results);
         }
         fetchMovie();
-        console.log("country", countries)
     }, []);
 
     if (!authenticated) {
@@ -39,7 +35,7 @@ function FindMovie() {
             <label className={styles["countryLabel"]} htmlFor="country">Choose a country to check the available content</label>
             <div className={styles["form"]}>
                     {countries && countries.map((country) => {
-                        return <div><Link to={`/CountryResult/${country.id}`}><p className={styles["countryNames"]}>{country.country}</p></Link></div>
+                        return <div className={styles["countryList"]}><Link to={`/CountryResult/${country.id}`}><p className={styles["countryNames"]}>{country.country}</p></Link></div>
                     })}
                             </div>
         </div>

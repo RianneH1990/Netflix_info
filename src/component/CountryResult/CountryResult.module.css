@@ -17,7 +17,7 @@
     border: 2px solid hsl(0, 100%, 73%);
     box-shadow: 10px 5px 5px #000;
     width: 650px;
-    height: 850px;
+    height: auto;
     padding: 20px;
     margin: 20px;
 }
@@ -97,5 +97,7 @@ button:disabled:hover {
 
 .available {
     color: hsl(0, 31%, 94%);
+    padding-top: 20px;
+    font-size: 15px;
 }
 

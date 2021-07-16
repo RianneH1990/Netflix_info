@@ -25,11 +25,20 @@ h1 {
     color: red;
 }
 
-.type{
+.paragraph{
+    font-family: 'Roboto', sans-serif;
     padding: 10px;
+    color: hsl(0, 31%, 94%);
 }
 
 h3 {
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: normal;
+}
+
+.countries {
+    font-size: 12px;
+    padding-top: 20px;
+    color: hsl(0, 31%, 94%);
 }

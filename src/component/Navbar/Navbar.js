@@ -7,8 +7,6 @@ import {useAuth} from "../../contexts/AuthContext";
 export default function Navbar() {
     const {authenticated, setAuthenticated} = useAuth();
 
-
-
     return(
         <nav>
             <ul className={styles["navLinks"]}>

@@ -50,3 +50,7 @@
     font-size: 30px;
     color: hsl(0, 100%, 50%);
 }
+
+.clickHere {
+    color: hsl(0, 50%, 100%);
+}

@@ -11,10 +11,6 @@ function CountryResult() {
     const [refreshKey, setRefreshKey] = useState(0);
     const { id } = useParams();
 
-    console.log("id", id)
-    console.log("offset", offset)
-
-
     useEffect(() => {
         async function fetchInfo() {
             const result = await axios.get(`https://unogsng.p.rapidapi.com/search`, {
@@ -35,14 +31,11 @@ function CountryResult() {
                     'x-rapidapi-host': 'unogsng.p.rapidapi.com'
                 }
             });
-            console.log(response.data.results);
-            console.log("result", result.data.results);
             setMovies(result.data.results);
             setCountries(response.data.results);
                  }
         fetchInfo();
     },[refreshKey]);
-    console.log("movie na fetch", movies);
 
 
     function nextPage() {

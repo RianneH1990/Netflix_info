@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 
-
-
 function Searchbar() {
     const [searchTerm, setSearchTerm] = useState('');
     const [results, setResults] = useState([]);
@@ -25,9 +23,7 @@ function Searchbar() {
                     'x-rapidapi-host': 'unogsng.p.rapidapi.com'
                 }
             });
-            console.log(result.data.results);
             setResults(result.data.results);
-
         }
         fetchData();
     }, []);
@@ -36,7 +32,6 @@ function Searchbar() {
         setText(text);
         setSearchTerm(text);
         setSuggestions([]);
-
     }
 
     const onChangeHandler = (text)=>{
@@ -47,13 +42,10 @@ function Searchbar() {
                 return result.title.match(regex)
             })
         }
-        console.log("matches", matches);
         setSuggestions(matches)
         setText(text)
         setSearchTerm(text)
     }
-
-    console.log(searchTerm);
 
     return (
         <div className={styles["container"]}>

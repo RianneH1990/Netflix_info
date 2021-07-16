@@ -4,18 +4,17 @@ const Validation = (values) => {
 
     if(!values.email) {
         valErrors.email="Email is required"
-    } else if (!/\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/.tets(values.email)) {
+    } else if (!values.email === '@' || !values.email === '.') {
         valErrors.email="Email is invalid"
     }
 
     if(!values.password) {
         valErrors.password = "Password is required"
-        // } else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/) {
-        //     valErrors.password="password must contain:" +
-        //         "- at least 8 characters" +
-        //         "- must contain at least 1 uppercase letter, 1 lowercase letter, and 1 number" +
-        //         "- Can contain special characters"
-        // }
+        } else if (values.password < 8) {
+            valErrors.password = "Password must be 8 characters"
+        } else if (values.password > 15) {
+            valErrors.password = "Password can't be longer than 15 characters"
+    }
 
         if (values.passwordConfirm === values.password) {
             valErrors.passwordConfirm = "Passwords don't match"
@@ -26,7 +25,6 @@ const Validation = (values) => {
         }
 
         return valErrors;
-
-    }}
+    }
 
 export default Validation;

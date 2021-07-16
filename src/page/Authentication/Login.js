@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import styles from './SignUp.module.css';
+import styles from './Login.module.css';
 import {Link, useHistory} from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import Validation from "../../component/Validation";
@@ -28,11 +28,11 @@ function Login() {
         e.preventDefault()
         setValErrors(Validation(values));
         try {
-            setAuthenticated(true)
             setError('')
             setLoading(true)
             await login(emailRef.current.value, passwordRef.current.value)
             history.push('/')
+            setAuthenticated(true)
         } catch {
             setError('Failed to login')
         }
@@ -40,9 +40,9 @@ function Login() {
     }
 
     return (
-        <div className={styles["header"]}>
+        <div>
             <fieldset className={styles["registerContainer"]}>
-                <h1>Login</h1>
+                <h1 className={styles["pageHeader"]}>Login</h1>
                 {error && <p>{error}</p>}
                 <form onSubmit={handleSubmit} className={styles["registerForm"]}>
                     <label classname={styles["formLabels"]} htmlFor="email">Email:</label>
@@ -56,7 +56,7 @@ function Login() {
                         value={values.email}
                         onChange={handleChange}
                     />
-                    {valErrors.email && <p classname={styles["valError"]}>{valErrors.email}</p>}
+                    {valErrors.email && <p className={styles["errorText"]}>{valErrors.email}</p>}
                     <label classname={styles["formLabels"]} htmlFor="password">Password:</label>
                     <input
                         type="password"
@@ -68,7 +68,7 @@ function Login() {
                         value={values.password}
                         onChange={handleChange}
                     />
-                    {valErrors.password && <p classname={styles["valError"]}>{valErrors.password}</p>}
+                    {valErrors.password && <p className={styles["errorText"]}>{valErrors.password}</p>}
                     <button
                         disabled={loading}
                         type="submit"
